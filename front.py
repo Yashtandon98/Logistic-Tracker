@@ -28,9 +28,9 @@ def search_command():
         list1.insert(END,things)
 
 def add_command():
-    backend.insert(e1.get(),e2.get(),e3.get(),e4.get())
+    backend.insert(e1.get(),e2.get(),e3.get(),e4.get(),e5.get(),e6.get(),e7.get(),e8.get(),e9.get(),e10.get(),e11.get(),e12.get(),e13.get(),e14.get(),e15.get(),e16.get(),e17.get(),e18.get(),e19.get(),e20.get(),e21.get(),e22.get())
     list1.delete(0,END)
-    list1.insert(END,(e1.get(),e2.get(),e3.get(),e4.get()))
+    list1.insert(END,(e1.get(),e2.get(),e3.get(),e4.get(),e5.get(),e6.get(),e7.get(),e8.get(),e9.get(),e10.get(),e11.get(),e12.get(),e13.get(),e14.get(),e15.get(),e16.get(),e17.get(),e18.get(),e19.get(),e20.get(),e21.get(),e22.get()))
 
 def delete_command():
     backend.delete(selected_tuple[0])
